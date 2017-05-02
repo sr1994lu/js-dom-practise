@@ -1,0 +1,217 @@
+@charset "utf-8";
+
+/*----ブラウザ背景に画像を入れる---------------------*/
+
+body {
+  background-image: url("../images/monyo.gif");
+  background-repeat: repeat;
+  margin-left: 14px; /*スクロールバー対策*/
+}
+
+/*----全体を囲うBOX---------------------*/
+
+#wrapper {
+  width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-image: url("../images/shadow.png");
+  background-repeat: repeat-y;
+  position: relative;
+}
+
+/*----ナビゲーション---------------------*/
+
+nav {
+  overflow: hidden;
+}
+
+nav li {
+  background-color: #000;
+  text-align: center;
+  font-size: 90%;
+  float: left;
+  width: 160px;
+  letter-spacing: 0.2em;
+}
+
+#campaign {
+  background: #960;
+}
+
+nav a {
+  width: 160px;
+  color: #fff;
+  text-decoration: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: block;
+}
+
+nav a:hover {
+  color: #FFF;
+  background-color: #9c1f39;
+}
+
+/*----ヘッダー部分---------------------*/
+
+#pageHeader {
+  background-color: #f0e0e0;
+  width: 800px;
+  background-image: url(../images/h1Back.png);
+}
+
+#pageHeader img {
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/*----フォーム部分--------------------*/
+
+#contents {
+  color: #444;
+}
+
+#contents header h1 {
+  color: #c03;
+  font-size: 160%;
+}
+
+#contents header p {
+  margin: 10px 0;
+}
+
+th,
+td {
+  border: solid 1px #666;
+  font-weight: normal;
+}
+
+#contents {
+  clear: left;
+  width: 700px;
+  margin: 20px auto;
+
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  font-size: 75%;
+  line-height: 1.4;
+  vertical-align: middle;
+}
+
+th {
+  width: 200px;
+  background-color: #eee;
+}
+
+td {
+  widht: 600px;
+}
+
+textarea {
+  width: 450px;
+  height: 150px;
+}
+
+input[type="text"] {
+  width: 300px;
+}
+
+input[type="email"] {
+  width: 300px;
+}
+
+select {
+  width: 200px;
+}
+
+tfoot td {
+  border: none;
+  text-align: center;
+}
+
+tfoot input {
+  width: 200px;
+  margin-top: 20px;
+}
+
+thead th {
+  background-color: #c03;
+  text-align: center;
+  color: #fff;
+  letter-spacing: 0.2em;
+  font-weight: bold;
+}
+
+.thHead {
+  background-color: #fff3f1;
+  text-align: center;
+  font-size: 83%;
+  font-weight: bold;
+}
+
+label {
+  margin-right: 20px;
+}
+
+input[type="reset"] {
+  margin-right: 20px;
+}
+
+.midashi {
+  color: #c03;
+  font-size: 150%;
+}
+
+/*----フッター部分---------------------*/
+
+footer {
+  width: 800px;
+  background-color: #0f0a0a;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #fff;
+  clear: left;
+  margin-top: 10px;
+}
+
+/*----デザイン---------------------*/
+
+footer p {
+  font-style: normal;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: 0.2em;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+/*----エラーメッセージスタイリング-------------------*/
+#alertAll {
+  color: #F00;
+  margin-bottom: 10px;
+}
+
+#alertAll p {
+  margin-bottom: 5px;
+}
+
+#alert0, #alert1, #alert2, #alert3, #alert4 {
+  color: #F00;
+}
+
+
+
+
+
+
